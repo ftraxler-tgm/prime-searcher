@@ -25,7 +25,15 @@ public class Searcher implements ApplicationRunner {
     private Date start;
     private boolean flag = false;
 
-    @GetMapping("/searcher")
+
+    @GetMapping("/primes")
+    public String prime(){
+        return "redirect:/primes/searcher";
+    }
+
+
+    
+    @GetMapping("/primes/searcher")
     public String updatePrime(Model model){
         model.addAttribute("start", this.start);
         model.addAttribute("prime",this.prime);
