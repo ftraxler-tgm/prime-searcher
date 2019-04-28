@@ -31,14 +31,14 @@ Der Code wird mittels ``gradle bootRun`` und ``gradle test`` auf entsprechende F
 ## Bewertung
 Gruppengrösse: 1 Person
 ### Grundanforderungen **überwiegend erfüllt**
-- [ ] Implementierung der Startseite ``Primes`` mit Weiterleitung auf den Output
-- [ ] Implementierung des ``Searcher`` Servlets (lastPrime, runningSince, lastTimeFoundPrime, terminatedFlag)
-- [ ] einfacher Aufruftest mit der ``org.springframework.boot:spring-boot-starter-test`` Abhängigkeit
+- [x] Implementierung der Startseite ``Primes`` mit Weiterleitung auf den Output
+- [x] Implementierung des ``Searcher`` Servlets (lastPrime, runningSince, lastTimeFoundPrime, terminatedFlag)
+- [x] einfacher Aufruftest mit der ``org.springframework.boot:spring-boot-starter-test`` Abhängigkeit
 
 ### Grundanforderungen **zur Gänze erfüllt**
-- [ ] Strikte Trennung des HTML-Templates von funktionalem Code
-- [ ] Implementierung der automatischen Weiterleitung nach entsprechender Zeit (z.B. 5sec)
-- [ ] Test der funktionalen Anforderungen (Anzeige, Weiterleitung, Zeit)
+- [x] Strikte Trennung des HTML-Templates von funktionalem Code
+- [x] Implementierung der automatischen Weiterleitung nach entsprechender Zeit (z.B. 5sec)
+- [x] Test der funktionalen Anforderungen (Anzeige, Weiterleitung, Zeit)
 
 ## Quellen
 * ["Serving Web Content with Spring MVC"; SpringBoot Guides; zuletzt besucht am 2019-04-08; online](https://spring.io/guides/gs/serving-web-content/)
