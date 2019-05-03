@@ -38,7 +38,7 @@ Gruppengrösse: 1 Person
 ### Grundanforderungen **zur Gänze erfüllt**
 - [x] Strikte Trennung des HTML-Templates von funktionalem Code
 - [x] Implementierung der automatischen Weiterleitung nach entsprechender Zeit (z.B. 5sec)
-- [ ] Test der funktionalen Anforderungen (Anzeige, Weiterleitung, Zeit)
+- [x] Test der funktionalen Anforderungen (Anzeige, Weiterleitung, Zeit)
 
 ## Quellen
 * ["Serving Web Content with Spring MVC"; SpringBoot Guides; zuletzt besucht am 2019-04-08; online](https://spring.io/guides/gs/serving-web-content/)
