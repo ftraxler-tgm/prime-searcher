@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prime</title>
+
+
+
+  <script type="text/javascript">
+
+          var interval;
+          var seconds = 05;
+          window.onload = function () {
+              countdown('timer');
+          }
+
+          function countdown(element) {
+              interval = setInterval(function () {
+                  var el = document.getElementById(element);
+                  if (seconds == 0) {
+                      clearInterval(interval);
+                      window.location.replace("/primes/searcher")
+                      return;
+                  }
+                  el.innerHTML = 'Weiterleitung erfolgt in '+seconds+ ' Sekunden';
+                  seconds--;
+              }, 1000);
+          }
+  </script>
+
+
+
+
+</head>
+<body>
+<h1 id="timer" align="center"></h1>
+</body>
+</html>

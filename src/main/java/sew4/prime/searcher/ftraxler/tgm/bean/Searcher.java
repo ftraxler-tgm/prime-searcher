@@ -28,12 +28,7 @@ public class Searcher implements ApplicationRunner {
 
     @GetMapping("/primes")
     public String prime(){
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        return "redirect:/primes/searcher";
+        return "prime";
     }
 
 
